@@ -57,10 +57,18 @@ Non-contest performances include not only Riverdance but also Aqua, t.A.t.U., Ma
 
 ## Criticism
 
+### Political Issues
+
 The contest has been the subject of considerable criticism regarding
 both its musical content and what has been reported to be a political
 element to the event, and several controversial moments have been
 witnessed over the course of its history.
+
+As artists and songs ultimately represent a country, the contest has seen several controversial moments where political tensions between competing countries as a result of frozen conflicts, and in some cases open warfare, are reflected in the performances and voting.
+
+This has been the case with Cyprus, Turkey and Greece; Armenia and Azerbaijan; Russia and Ukraine; or Georgia withdrawing and Belarus being disqualified due to the name and lyrics of their submitted songs; or protests around Israel participation.
+
+### Political and Geographical Voting
 
 ## Further Research
 
