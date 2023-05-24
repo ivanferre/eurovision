@@ -55,9 +55,7 @@ Norway has come last more than any other country, appearing at the bottom of the
 
 Non-contest performances include not only Riverdance but also Aqua, t.A.t.U., Madonna, Justin Timberlake or Cirque du Soleil.
 
-## Criticism
-
-### Political Issues
+## Political Issues
 
 The contest has been the subject of considerable criticism regarding
 both its musical content and what has been reported to be a political
@@ -68,7 +66,25 @@ As artists and songs ultimately represent a country, the contest has seen severa
 
 This has been the case with Cyprus, Turkey and Greece; Armenia and Azerbaijan; Russia and Ukraine; or Georgia withdrawing and Belarus being disqualified due to the name and lyrics of their submitted songs; or protests around Israel participation.
 
-### Political and Geographical Voting
+## Political and Geographical Voting
+
+The contest has been described as containing political elements in its voting process, a perception that countries will give votes more frequently and in higher quantities to other countries based on political relationships, rather than the musical merits of the songs themselves. Numerous studies and academic papers have been written on this subject, which have corroborated that certain countries form "clusters" or "cliques" by frequently voting in the same way.
+
+## LGBT
+
+Eurovision has had a long-held fan base in the LGBT community, and contest organisers have actively worked to include these fans in the event since the 1990s. Paul Oscar became the contest's first openly gay artist to compete when he represented Iceland in 1997. Israel's Dana International, the contest's first trans performer, became the first LGBT artist to win in 1998. In 2021, Nikkie de Jager became the first trans person to host the contest.
+
+Several open members of the LGBT community have since gone on to compete and win: Conchita Wurst won the 2014 contest for Austria; Krista Siegfrids' performance of "Marry Me" at the 2013 contest included a same-sex kiss with one of her female backing dancers; and the stage show of Ireland's Ryan O'Shaughnessy's "Together" in 2018 had two male dancers portraying a same-sex relationship. Drag performers, such as Ukraine's Verka Serduchka, Denmark's DQ and Slovenia's Sestre, have appeared, including Wurst winning in 2014.
+
+In recent years, various political ideologies across Europe have clashed in the Eurovision setting, particularly on LGBT rights. This has reflected on some broadcasters pulling out of the contest such Turkey, Hungary, Russia, or China.
+
+## Cultural Influence
+
+The Eurovision Song Contest has amassed a global following and sees annual audience figures of between 100 and 600 million.[358][359] The contest has become a cultural influence worldwide since its first years, is regularly described as having kitsch appeal.
+
+Eurovision has a large online following and multiple independent websites, news blogs and fan clubs are dedicated to the event. One of the oldest and largest Eurovision fan clubs is OGAE, founded in 1984 in Finland and currently a network of over 40 national branches across the world.
+
+In the run-up to each year's contest, several countries regularly host smaller events between the conclusion of the national selection shows in March and the contest proper in May, known as the "pre-parties". These events typically feature the artists which will go on to compete at that year's contest, and consist of performances at a venue and meet-and-greets with fans and the press.
 
 ## Further Research
 
