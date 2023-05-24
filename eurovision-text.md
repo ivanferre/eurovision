@@ -36,7 +36,35 @@ The EBU's general assembly agreed to the organising of the song contest in Octob
 
 Seven countries participated in the first contest, each one with two songs (only time that more than one song per country was permitted). Voting was held behind closed doors, with only the winner announced on stage. The song Refrain, interpreted by the Swiss singer Lys Assia, was claimed the victory.
 
+ Changes in Europe following the end of the Cold War saw an influx of new countries from Central and Eastern Europe applying for the first time. From the nineties, contest expanded to more than one day event to accomodate a pre-qualifying round and later semi-finals to allow for more countries to participate.
+
+Well-known participants include ABBA, Celine Dion, Katrina & The Waves, Olivia Newton-John, Las Ketchup...
+
+Songs that became big hits include Waterloo, Volare,...
+Also the Riverdance dance show that has extensively toured worldwide had its origin as a performance during the main interval act between the song performances and the voting act.
+
+70 songs from 27 countries have won the Eurovision Song Contest as of 2023. Of the 52 countries to have taken part, 25 have yet to win.
+
+Johnny Logan from Ireland was the first interpreter to win twice (1980 and 1987).
+
+Ireland and Sweden lead the scoreboard with seven victories each country.
+
+The United Kingdom holds the record for the highest number of second-place finishes, having finished runner-up sixteen times.
+
+Norway has come last more than any other country, appearing at the bottom of the scoreboard on eleven occasions, including scoring nul points four times.
+
+Non-contest performances include not only Riverdance but also Aqua, t.A.t.U., Madonna, Justin Timberlake or Cirque du Soleil.
+
+## Criticism
+
+The contest has been the subject of considerable criticism regarding
+both its musical content and what has been reported to be a political
+element to the event, and several controversial moments have been
+witnessed over the course of its history.
+
 ## Further Research
 
-- Why Australia?
+- Number of participants per year.
+- Visualization of growing number of participants: European map & add-ons.
+- Why Australia was invited in 2015? When started non-european countries? Morocco?
 - Madonna, Justin Timberlake, Cirque du Soleil...
