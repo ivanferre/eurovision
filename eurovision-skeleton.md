@@ -5,6 +5,10 @@ The Musical Guilty Pleasure
 ## Notes on Structure
 
 - Header presenting the topic.
+- Menu at Top: Main, Credits, About
+- Credits: the four authors, and their favourite Eur Songs
+- About: What technologies we used, what articles we read,...
+- Both Credits and About also with Scrollorama.
 - Text content to the right, displaying basic concepts.
 - To the left, videos of the most iconic/representative songs, maybe pictures of other participants, relevant for their looks or personality (but not their music).
 - Videos play silent and when clicking on them, then music sound plays.
