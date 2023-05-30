@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Oxygen:wght@300&display=swap');
+
+html {
+    font-size: 16;
+    box-sizing: content-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html.lenis {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}
+
+
+
+
+body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+p {
+    font-size: x-large;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-size: xx-large;
+    font-family: 'Bevan', cursive;
+}
