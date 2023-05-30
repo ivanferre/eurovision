@@ -1,3 +1,5 @@
+console.log("Defining lenis...")
+
 const lenis = new Lenis({
     duration: 1.2,
     easing: (t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t)),
@@ -8,10 +10,14 @@ const lenis = new Lenis({
     touchMultiplier: 2,
 });
 
+console.log("lenis defined!")
+
 function raf(time) {
     lenis.raf(time);
     requestAnimationFrame(raf);
 }
+
+console.log("Requesting Animation Frame...")
 
 requestAnimationFrame(raf);
 
