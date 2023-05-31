@@ -10,11 +10,19 @@ const lenis = new Lenis({
     touchMultiplier: 2,
 });
 
+lenis.on('scroll', ({ scroll }) => {
+    console.log(scroll)
+})
+
 console.log("lenis defined!")
 
 function raf(time) {
     lenis.raf(time);
     requestAnimationFrame(raf);
+}
+
+function scrollToAnchor(domElement) {
+    lenis.scrollTo(domElement);
 }
 
 console.log("Requesting Animation Frame...")

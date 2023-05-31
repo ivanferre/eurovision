@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tlenis.css">
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
-    <script type="module" src="tlenis.js"></script>
+    <!-- <script type="module" src="tlenis.js"></script> -->
+    <script src="tlenis.js"></script>
     <title>Test Lenis</title>
 </head>
 
@@ -15,13 +16,13 @@
     <section>
         <h1>Top 10 Iconic Songs</h1>
         <ol>
-            <li><a href="#waterloo" onclick="lenis.scrollTo('#waterloo')">ABBA: Waterloo (1974)</a>
+            <li><a href="#waterloo" onclick="scrollToAnchor('#waterloo')">ABBA: Waterloo</a>
             </li>
-            <li><a href="#hardrockhallelujah" onclick="lenis.scrollTo('#hardrockhallelujah')">LORDI: Hard Rock Hallelujah (2006)</a>
+            <li><a href="#hardrockhallelujah" onclick="scrollToAnchor('#hardrockhallelujah')">Lordi: Hard Rock Hallelujah (2006)</a>
             </li>
         </ol>
         <article>
-            <h2>ABBA: Waterloo (1974)</h2>
+            <h2>ABBA: Waterloo (from 1974)</h2>
             <video controls autoplay muted height="300">
                 <source src="https://www.youtube.com/watch?v=3FsVeMz1F5c" type="video/mp4">
             </video>
