@@ -4,6 +4,13 @@ Team Project for PowerCoders Spring 2023
 
 ## Resources
 
+### Video Element
+
+- <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video>
+- <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source>
+
+### Scrollytelling
+
 - [Easier scrollytelling with position sticky](https://pudding.cool/process/scrollytelling-sticky/)
 - [cursor (in MDN Docs)](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
 - [Flushway](https://flushway.netlify.app/#/)
