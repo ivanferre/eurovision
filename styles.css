@@ -65,7 +65,7 @@ div {
     scroll-snap-stop: always;
 }
 
-article {
+.mandatory-y article {
     width: 100%;
     /* TODO
      * If we define fixed height, the text overflows its container.
