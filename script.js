@@ -1,9 +1,15 @@
-var s1 = document.querySelector('.mandatory-x');
-var s2 = document.querySelector('.mandatory-y');
+const leftCont = document.querySelector('.mandatory-x');
+const rightCont = document.querySelector('.mandatory-y');
+let amountOfScroll;
 
-function select_scroll() {
+rightCont.addEventListener('scroll', event => {
+    preventDefault(event);
+    amountOfScroll = rightCont.scrollTop;
+    leftCont.scrollLeft = amountOfScroll;
+});
 
-    s2.scrollTop = s1.scrollLeft;
-}
-
-s2.addEventListener('scroll', select_scroll(), false);
+leftCont.addEventListener('scroll', event => {
+    preventDefault(event);
+    amountOfScroll = leftCont.scrollLeft;
+    rightCont.scrollTop = amountOfScroll;
+});
