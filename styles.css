@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+.mandatory-y {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.mandatory-y>div {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+div div {
+    width: 100%;
+    height: 70vh;
+    border: 3px solid pink;
+}
