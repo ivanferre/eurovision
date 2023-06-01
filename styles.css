@@ -1,22 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Oxygen:wght@300&display=swap');
+/* ====================== CUSTOM PROPERTIES ====================== */
+:root {
+  /*colors*/
+  --dark-blue: 240 96% 18%;
+  --blue: 225 98% 50%;
+  --pink: 329 98% 50%;
+  --yellow: 59 99% 50%;
+  --white: 0 0% 100%;
+  --font-color: 0 0% 17%;
 
-html {
-    font-size: 16;
-    box-sizing: border-box;
+  /*font-sizes*/
+  --fs-800: 6.25rem;
+  --fs-700: 3.5rem;
+  --fs-600: 2rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.75rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+
+  /*font-family*/
+  --ff-serif: Georgia, "Times New Roman", Times, serif;
 }
+/* ============================================================== */
 
+/* ====================== CSS RESET ====================== */
 *,
-*::after,
-*::before {
-    box-sizing: inherit;
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+/* ============================================================== */
+/* ====================== UTILITY PROPERTIES ====================== */
+.background-blue {
+  background-color: hsl(var(--blue));
+}
+.background-pink {
+  background-color: hsl(var(--pink));
+}
+.background-yellow {
+  background-color: hsl(var(--yellow));
+}
+/* ============================================================== */
 
 body {
-    /* box-sizing: border-box; */
-    height: auto;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
+  font-family: var(--ff-serif);
+  font-size: var(--fs-400);
+  color: var(--font-color);
+}
+
+.left-fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: hsl(var(--dark-blue));
+  border: 2px solid black;
+}
+
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: var(--fs-700);
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: var(--fs-500);
+}
+
+article {
+  padding: 20px;
+  display: grid;
+  justify-content: center;
+}
+
+article p {
+  max-width: 60ch;
+}
+
+.background-buffer {
+  display: grid;
+  gap: 2rem;
+  background-color: hsl(var(--white) / 0.7);
+  padding: 10px 50px;
+  border-radius: 15px;
 }
 
 /* -------- left part scroll --------- */
@@ -29,28 +137,25 @@ body {
     height: 100vh;
     overflow: scroll;
     scroll-snap-type: x mandatory;
-}
-
-.left-fixed {
+  }
+  
+  .left-fixed {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
-
-.mandatory-x > div {
-    scroll-snap-align: start ;
+  }
+  
+  .mandatory-x > article {
+    scroll-snap-align: start;
     scroll-snap-stop: always;
-}
-
-div {
-    width: 45vw;
+    width: 100%;
     height: 100%;
     border: 3px solid purple;
-}
-
-/* --------- right part scroll --------- */
-
-.mandatory-y {
+  }
+  
+  /* --------- right part scroll --------- */
+  
+  .mandatory-y {
     position: fixed;
     right: 0;
     top: 0;
@@ -58,19 +163,19 @@ div {
     height: 100vh;
     overflow: scroll;
     scroll-snap-type: y mandatory;
-}
-
-.mandatory-y > article {
-    scroll-snap-align: start ;
+  }
+  
+  .mandatory-y > article {
+    scroll-snap-align: start;
     scroll-snap-stop: always;
-}
+  }
 
 .mandatory-y article {
-    width: 100%;
-    /* TODO
+  width: 100%;
+  /* TODO
      * If we define fixed height, the text overflows its container.
      * If we don't, scroll may not work. */
-    height: auto;
-    /* ! DEBUG */
-    border: 3px solid purple;
+  height: auto;
+  /* ! DEBUG */
+  border: 3px solid purple;
 }
