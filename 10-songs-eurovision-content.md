@@ -43,7 +43,7 @@ His win was celebrated throughout Europe for crushing stereotypes about the cont
 
 Loreen (born Lorine Zineb Nora Talhaoui) is a Swedish singer . She won the Eurovision Song Contest for Sweden in 2012 in Baku with the song Euphoria and again in Liverpool in 2023 with the song Tattoo . This makes her the second person after Johnny Logan to win the Eurovision Song Contest twice.
 
-In the run-up to the Eurovision Song Contest 2012, Loreen caused a stir by publicly commenting on the human rights situation in the host country, Azerbaijan , and by meeting with the country's opposition figures. Together with Anke Engelke's message to the Azerbaijani opposition via video message during the awarding of points, Loreen was one of the few central figures who publicly declared their political convictions. 
+In the run-up to the Eurovision Song Contest 2012, Loreen caused a stir by publicly commenting on the human rights situation in the host country, Azerbaijan , and by meeting with the country's opposition figures. Together with Anke Engelke's message to the Azerbaijani opposition via video message during the awarding of points, Loreen was one of the few central figures who publicly declared their political convictions.
 
 “Euphoria” won the competition with a total of 372 points, at the time the second-highest point total in the contest's history. The song received the highest number of maximum (12) points of any entry in the contest's history with eighteen countries giving the song their top marks.
 
