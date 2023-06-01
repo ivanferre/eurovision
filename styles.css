@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Oxygen:wght@300&display=swap');
+
 body {
     box-sizing: border-box;
     height: auto;
@@ -40,5 +42,6 @@ div div {
 article {
     width: 100%;
     height: 70vh;
-    border: 3px solid pink;
+    /* ! DEBUG */
+    border: 5px solid purple;
 }
