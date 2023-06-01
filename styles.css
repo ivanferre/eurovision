@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     height: auto;
     width: 100vw;
     display: flex;
@@ -52,7 +52,7 @@ div div {
 
 article {
     width: 100%;
-    height: 70vh;
+    /* height: 70vh; */
     /* ! DEBUG */
     border: 5px solid purple;
 }
