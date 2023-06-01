@@ -39,15 +39,9 @@ body {
     scroll-snap-type: y mandatory;
 }
 
-.mandatory-y>div {
-    scroll-snap-align: center;
+.mandatory-y > article {
+    scroll-snap-align: start ;
     scroll-snap-stop: always;
-}
-
-div div {
-    width: 100%;
-    height: 70vh;
-    border: 3px solid pink;
 }
 
 article {
@@ -55,7 +49,7 @@ article {
     /* TODO
      * If we define fixed height, the text overflows its container.
      * If we don't, scroll may not work. */
-    /* height: 70vh; */
+    height: auto;
     /* ! DEBUG */
     border: 3px solid purple;
 }
