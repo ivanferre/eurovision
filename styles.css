@@ -52,7 +52,10 @@ div div {
 
 article {
     width: 100%;
+    /* TODO
+     * If we define fixed height, the text overflows its container.
+     * If we don't, scroll may not work. */
     /* height: 70vh; */
     /* ! DEBUG */
-    border: 5px solid purple;
+    border: 3px solid purple;
 }
