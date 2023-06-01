@@ -94,6 +94,36 @@ body {
   background-color: hsl(var(--dark-blue));
   border: 2px solid black;
 }
+/* -------- left part scroll --------- */
+
+.mandatory-x {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100vh;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.left-fixed {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.mandatory-x > div {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+div {
+  width: 45vw;
+  height: 100%;
+  border: 3px solid purple;
+}
+
+/* --------- right part scroll --------- */
 
 .mandatory-y {
   position: fixed;
@@ -145,4 +175,13 @@ article p {
   background-color: hsl(var(--white) / 0.7);
   padding: 10px 50px;
   border-radius: 15px;
+}
+.mandatory-y article {
+  width: 100%;
+  /* TODO
+     * If we define fixed height, the text overflows its container.
+     * If we don't, scroll may not work. */
+  height: auto;
+  /* ! DEBUG */
+  border: 3px solid purple;
 }
