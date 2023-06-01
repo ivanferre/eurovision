@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bevan&family=Oxygen:wght@300&display=swap');
 
+html {
+    font-size: 16;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
 body {
     box-sizing: border-box;
     height: auto;
