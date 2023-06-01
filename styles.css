@@ -187,5 +187,6 @@ article.right-side ol {
 
 .mandatory-y article {
   width: 100%;
-  height: auto;
+  height: 100vh;
+  overflow: scroll;
 }
