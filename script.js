@@ -12,10 +12,9 @@ var observerRightColumn = new IntersectionObserver(observerRightColumnCallback, 
 });
 
 function observerRightColumnCallback(entries, observer) {
-	console.log(entries);
     entries.forEach(entry => {
         if(entry.isIntersecting) {
-         	
+    
          	let index = Array.prototype.indexOf.call(entry.target.parentNode.children, entry.target);
          	if(index != currentIndex) {
 	            let targetElement = leftArticles[index];
